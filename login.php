@@ -61,7 +61,7 @@ include 'function.php';
             <form method="post" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>">
                 <img class="mb-2 img-fluid" src="assets/images/logo.png" alt="BIT LOGO" width="130">
                 <h1 class="h3 mb-3 fw-normal">Please sign in to</h1>
-                <h1 class="h3 mb-3 fw-normal">M&C System</h1>
+                <h1 class="h3 mb-3 fw-normal">E&C System</h1>
                 <div class="text-danger"><?= @$messages['error_UserName'] ?></div>
                 <div class="text-danger"><?= @$messages['error_Password'] ?></div>
                 <div class="text-danger"><?= @$messages['error_invalid'] ?></div>
