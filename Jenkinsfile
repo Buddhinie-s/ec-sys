@@ -10,7 +10,7 @@ ipeline {
         stage('Docker build and push') {
             steps {
                 script {
-                    withDockerRegistry(credentialsId:'dockerhub') {
+                    withDockerRegistry(credentialsId:'JenkinIdBuddhinie') {
                         bat "docker build -t buddhinie/ecsystem:1.0 ."
                         bat "docker push buddhinie/ecsystem:1.0"
                     }
